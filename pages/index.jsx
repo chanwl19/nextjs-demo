@@ -32,7 +32,7 @@ export default function HomePage(props) {
 //Problem only render data at build, may be oudated add revalidate
 export async function getStaticProps(){
     //fetch data from API
-    const connectedClient = await MongoClient.connect('mongodb+srv://dbuser:PAss!23456789@cluster0.zuqxwi9.mongodb.net/meetups');
+    const connectedClient = await MongoClient.connect('mongodb+srv://dbuser:PAss0987654321@cluster0.zuqxwi9.mongodb.net/meetups');
     const db = connectedClient.db();
     const meetupsCollection = db.collection('meetups'); 
     const meetups = await meetupsCollection.find().toArray();

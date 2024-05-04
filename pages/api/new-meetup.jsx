@@ -9,7 +9,7 @@ export default async function handler(req,res){
         //const {title, image, address, desription } = data;
 
         //Store in DB
-        const connectedClient = await MongoClient.connect('mongodb+srv://dbuser:PAss!23456789@cluster0.zuqxwi9.mongodb.net/meetups');
+        const connectedClient = await MongoClient.connect('mongodb+srv://dbuser:PAss0987654321@cluster0.zuqxwi9.mongodb.net/meetups');
         const db = connectedClient.db();
 
         const meetupsCollection = db.collection('meetups');
