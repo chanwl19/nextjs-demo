@@ -20,7 +20,7 @@ export default function MeetupDetails(props) {
 }
 
 export async function getStaticPaths(){
-  const connectedClient = await MongoClient.connect('mongodb+srv://dbuser:PAss!23456789@cluster0.zuqxwi9.mongodb.net/meetups');
+  const connectedClient = await MongoClient.connect('mongodb+srv://dbuser:PAss0987654321@cluster0.zuqxwi9.mongodb.net/meetups');
   const db = connectedClient.db();
   const meetupsCollection = db.collection('meetups'); 
   //Only return id

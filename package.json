@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "gitno": "^0.0.2",
     "mongo": "^0.1.0",
     "mongodb": "^6.6.0",
     "next": "^12.3.4",
